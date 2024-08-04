@@ -50,3 +50,15 @@ vector<int> nums = {2, 2, 1, 1, 1, 2, 2}; // Example input
 cout << findMajorityElement(nums) << endl;
 return 0;
 }
+
+/* Test Cases:
+Input: {3, 2, 3}
+Output: 3
+Input: {2, 2, 1, 1, 1, 2, 2}
+Output: 2
+Input: {1}
+Output: 1
+Input: {1, 1, 1, 2, 2}
+Output: 1
+Input: {6, 5, 5}
+Output: 5 */
