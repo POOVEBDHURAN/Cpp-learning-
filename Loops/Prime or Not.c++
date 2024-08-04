@@ -30,3 +30,9 @@ int main() {
  std::cout << "Result: " << result[0] << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: n = 1231 | Output: 7 (1+2+3+1=7)
+Input: n = 1249 | Output: 16 (1+2+4+9=16)
+Input: n = 1001 | Output: -1 (not prime)
+Input: n = 4567 | Output: 22 (4+5+6+7=22) */
