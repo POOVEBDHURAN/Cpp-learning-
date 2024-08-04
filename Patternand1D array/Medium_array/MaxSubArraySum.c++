@@ -18,3 +18,16 @@ vector<int> nums = {5, 4, -1, 7, 8}; // Example input
 cout << maxSubarraySum(nums) << endl;
 return 0;
 }
+
+/* Test Cases:
+Input: {-2, 1, -3, 4, -1, 2, 1, -5, 4}
+Output: 6
+Input: {1}
+Output: 1
+Input: {5, 4, -1, 7, 8}
+Output: 23
+Input: {-1, -2, -3, -4}
+Output: -1
+Input: {-2, -3, 4, -1, -2, 1, 5, -3}
+Output: 7
+*/
