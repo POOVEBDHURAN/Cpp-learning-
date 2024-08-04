@@ -37,3 +37,9 @@ int main() {
  std::cout << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: arr = {4, 5, 6, 7, 4, 5, 9, 10, 6} | Output: 7 9 10
+Input: arr = {1, 2, 3, 1, 2, 3, 4, 5} | Output: 4 5
+Input: arr = {8, 8, 8, 8} | Output: -1
+Input: arr = {11, 13, 15, 17} | Output: 11 13 15 17 */
