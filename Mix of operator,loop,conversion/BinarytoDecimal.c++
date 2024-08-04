@@ -20,3 +20,8 @@ int result = Solution::binaryToDecimal(binary);
 std::cout << "Decimal: " << result << std::endl;
 return 0;
 }
+
+/* Test Cases:
+Input: binary = "1101" | Output: 13
+Input: binary = "1010" | Output: 10
+Input: binary = "1111" | Output: 15 */
