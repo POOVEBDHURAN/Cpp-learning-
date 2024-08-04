@@ -18,3 +18,7 @@ int main() {
  std::cout << "Minimum Element: " << minElement << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: arr = {5, 4, 3, 2, 1}//Output: 1
+Input: arr = {10, 20, 5, 15, 30}//Output: 5 */
