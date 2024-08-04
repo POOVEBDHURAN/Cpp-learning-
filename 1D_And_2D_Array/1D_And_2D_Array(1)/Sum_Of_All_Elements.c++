@@ -21,3 +21,9 @@ int result = sumMatrix(matrix);
 cout << "Sum of matrix elements: " << result << endl;
 return 0;
 }
+/*Test Cases:
+matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}} -> result = 45
+matrix = {{0, 0}, {0, 0}} -> result = 0
+matrix = {{-1, -2}, {-3, -4}} -> result = -10
+matrix = {{1}} -> result = 1
+matrix = {{1, 2}, {3, 4}, {5, 6}} -> result = 21*/
