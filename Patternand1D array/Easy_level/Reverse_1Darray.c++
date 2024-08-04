@@ -23,3 +23,8 @@ size);
  std::cout << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: arr = {1, 2, 3, 4, 5}//Output: {5, 4, 3, 2, 1}
+Input: arr = {10, 20, 30, 40, 50} //Output: {50, 40, 30, 20, 10}
+*/
