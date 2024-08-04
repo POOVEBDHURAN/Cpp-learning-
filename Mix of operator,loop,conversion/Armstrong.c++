@@ -29,3 +29,8 @@ std::cout << "Is Armstrong: " << (result ? "Yes" : "No") <<
 std::endl;
 return 0;
 }
+
+/* Test Cases:
+Input: n = 153 | Output: Yes
+Input: n = 370 | Output: Yes
+Input: n = 123 | Output: No */
