@@ -17,3 +17,7 @@ int main() {
  std::cout << "Sum of elements: " << sum << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: arr = {1, 2, 3, 4, 5}//Output: 15
+Input: arr = {10, 20, 30, 40, 50} //Output: 150 */
