@@ -25,3 +25,10 @@ int result = sumDiagonals(matrix);
 cout << "Sum of the diagonals: " << result << endl;
 return 0;
 }
+
+/*Test Cases: 
+matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}} -> result = 30
+matrix = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}} -> result = 3
+matrix = {{5}} -> result = 5
+matrix = {{1, 2}, {3, 4}} -> result = 10
+matrix = {{2, 2, 2}, {2, 2, 2}, {2, 2, 2}} -> result = 12 */
