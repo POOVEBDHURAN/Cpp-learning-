@@ -14,3 +14,18 @@ int main() {
  Solution::printSquarePattern(n);
  return 0;
 }
+
+/*Test Cases:
+Input: n = 3
+Output:
+***
+***
+***
+Input: n = 5
+Output:
+*****
+*****
+*****
+*****
+*****
+*/
