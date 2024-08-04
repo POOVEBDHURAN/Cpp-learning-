@@ -24,3 +24,14 @@ int main() {
  std::cout << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Range 27 to 48
+Odd numbers: 27 29 31 33 35 37 39 41 43 45 47
+Even numbers: 28 30 32 34 36 38 40 42 44 46 48
+Range 5 to 15
+Odd numbers: 5 7 9 11 13 15
+Even numbers: 6 8 10 12 14
+Range 0 to 10
+Odd numbers: 1 3 5 7 9
+Even numbers: 0 2 4 6 8 10 */
