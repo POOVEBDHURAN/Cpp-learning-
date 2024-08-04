@@ -2,7 +2,7 @@
 task is to insert the given element at a specific position in the array. 
 The position is 0-based, meaning inserting at position 0 will place 
 the element at the beginning of the array. If the position is greater 
-than the array size, the element should be appended at the end. */
+than the array size, the element should be appended at the end. **/
 
 #include<bits/stdc++.h>
 using namespace std;
