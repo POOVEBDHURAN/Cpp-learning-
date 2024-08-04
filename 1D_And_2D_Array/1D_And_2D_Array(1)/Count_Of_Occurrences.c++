@@ -23,3 +23,10 @@ int result = countElement(matrix, target);
 cout << "Count of target element: " << result << endl;
 return 0;
 }
+
+/*Test Cases: 
+matrix = {{1, 2, 2}, {3, 4, 2}, {5, 2, 6}}, target = 2 -> result = 4
+matrix = {{1, 1, 1}, {1, 1, 1}}, target = 1 -> result = 6
+matrix = {{0, 0, 0}, {0, 0, 0}}, target = 0 -> result = 6
+matrix = {{1, 2, 3}}, target = 2 -> result = 1
+matrix = {{4, 5, 6}, {7, 8, 9}}, target = 10 -> result = 0 */
