@@ -28,3 +28,8 @@ std::cout << num << " ";
 std::cout << std::endl;
 return 0;
 }
+
+/* Test Cases:
+Input: n = 5 | Output: "0 1 1 2 3"
+Input: n = 8 | Output: "0 1 1 2 3 5 8 13"
+Input: n = 10 | Output: "0 1 1 2 3 5 8 13 21 34 */
