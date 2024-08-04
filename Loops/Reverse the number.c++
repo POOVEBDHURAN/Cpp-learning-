@@ -21,3 +21,7 @@ int main() {
  std::cout << "Reversed number: " << result[0] << std::endl;
  return 0;
 }
+
+/* Test Cases:
+Input: n = 1234 | Output: 4321
+Input: n = 9876 | Output: 6789 */
