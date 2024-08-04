@@ -20,3 +20,8 @@ int main() {
 std::endl;
  return 0;
 }
+
+/* Test Cases:
+8, 7, 9; // Output: 17 (8 + 9)
+-1, -2, -3; // Output: -3 (-1 + -2)
+5, 5, 5; // Output: 10 (5 + 5) */
