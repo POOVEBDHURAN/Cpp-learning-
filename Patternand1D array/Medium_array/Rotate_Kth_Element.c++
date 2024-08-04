@@ -26,3 +26,15 @@ int main() {
  std::cout << std::endl;
  return 0;
 }
+
+/* Test cases:
+Input: arr = {1, 2, 3, 4, 5}, k = 2
+Output: {4, 5, 1, 2, 3}
+Input: arr = {1, 2, 3, 4, 5}, k = 0
+Output: {1, 2, 3, 4, 5}
+Input: arr = {1, 2, 3, 4, 5}, k = 5
+Output: {1, 2, 3, 4, 5}
+Input: arr = {1, 2, 3, 4, 5}, k = 3
+Output: {3, 4, 5, 1, 2}
+Input: arr = {1, 2, 3, 4, 5}, k = 1
+Output: {5, 1, 2, 3, 4} */
