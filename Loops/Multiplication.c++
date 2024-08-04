@@ -22,3 +22,8 @@ std::endl;
  }
  return 0;
 }
+
+/*Test Cases:
+Input: n = 9
+Input: n = 8
+Input: n = 7 */
