@@ -22,3 +22,7 @@ std::cout << "Addition result: " << addResult << std::endl;
 std::cout << "Subtraction result: " << subtractResult << std::endl;
 return 0;
 }
+
+/* Test Cases:
+Input: a = 15, b = 10 | Output: Addition result: 25, Subtraction result: 5
+Input: a = 7, b = 3 | Output: Addition result: 10, Subtraction result: 4 */
