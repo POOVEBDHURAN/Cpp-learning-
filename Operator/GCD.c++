@@ -22,3 +22,8 @@ int main() {
  int result = solution.gcd(a, b);
  std::cout << "GCD: " << result << std::endl;
  return 0;
+
+/* Test Cases:
+20, 16; // Output: 4
+13, 27; // Output: 1
+54, 24; // Output: 6 */
