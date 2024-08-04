@@ -23,3 +23,8 @@ int main() {
  std::cout << "Binary representation: " << result << std::endl;
  return 0;
 }
+
+/* Test cases:
+31; // Output: 11111
+4; // Output: 100
+0; // Output: 0 */
