@@ -16,3 +16,8 @@ int main() {
 std::endl;
  return 0;
 }
+
+/* Test Cases:
+int a = 5, b = 10; // Output: 10 5
+int a = 1, b = 2; //Output: 2 1
+int a = 0, b = 0; // Output: 0 0 */
