@@ -18,7 +18,7 @@ for(i=0;i<n;i++){
 for(auto it:s)
 {
  if(j==2) result.first=it;
- if(j==k) result.second=it;
+ if(j==(s.size()-(k-1))) result.second=it;
  j++;
 }
 return result;
