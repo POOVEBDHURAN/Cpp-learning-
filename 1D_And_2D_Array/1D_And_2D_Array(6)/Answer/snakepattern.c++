@@ -4,15 +4,23 @@ snake pattern*/
 #include <vector>
 using namespace std;
 void printMatrixSnakePattern(vector<vector<int>>& mat) {
- // Your implementation here
+  int i,j;
+  vector<int> result;
+  for(i=0;i<mat.size();i++){
+      if(i%2==0)
+         for(j=0;j<mat[0].size();j++) result.push_back(mat[i][j]);
+      else
+         for(j=mat[0].size()-1;j>=0;j--) result.push_back(mat[i][j]);
+  }
+  for(i=0;i<mat.size()*mat[0].size();i++) cout<<result[i]<<",";
 }
 int main() {
  // Example usage
- vector<vector<int>> matrix = {{10, 20, 30, 40}, {15, 25, 35, 45}, {27, 29, 37, 48}, {32, 33, 39, 
-50}};
+ vector<vector<int>> matrix = {{10, 20, 30, 40}, {15, 25, 35, 45}, {27, 29, 37, 48}, {32, 33, 39, 50}};
  printMatrixSnakePattern(matrix);
  return 0;
 }
+
 /*Test Cases:
 1 (3x3 Matrix):
 Input Matrix:
