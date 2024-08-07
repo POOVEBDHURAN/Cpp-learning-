@@ -52,4 +52,7 @@ Expected Output:
 Expected Output:
 -2 -1 -5 3 4
 10.Input:
-[1000, -500, 200, -100, 300]*/
+[1000, -500, 200, -100, 300]
+Expected Output:
+-500 -100 1000 200 300
+*/
