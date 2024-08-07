@@ -27,21 +27,7 @@ int main() {
  // Print rearranged array
  return 0;
 }
-6) Sort 0s,1s,2s
-#include <bits/stdc++.h>
-#include <vector>
-using namespace std;
-vector<int> sortArray012(vector<int>& arr) {
-    sort(arr.begin(),arr.end());
-    return arr;
-}
-int main() {
- // Example usage
- vector<int> arr = {1, 0, 2, 1, 0, 2, 1, 0};
- vector<int> sortedArr = sortArray012(arr);
- for(int i=0;i<arr.size();i++) cout<<sortedArr[i]<<" ";
- return 0;
-}
+
 /*Test cases:
 1.Input:
 [-5, -4, -3, -2, -1]
